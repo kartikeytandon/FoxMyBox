@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainBox {
+    display: grid;
+    grid-template-columns: 600px 4700px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.grid1 {
+    background-color: black;
+    height: 743px;
+}
+.grid2 {
+    background-color: black;
+    display: flex;
+    height: 743px;
+    justify-content: center;
+    align-items: center;
+}
+.head {
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 100px;
+    /* color: ghostwhite; */
+    color: yellow;
+}
+.head h1 {
+    font-size: 70px;
+}
+.Nav {
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 50px;
+    /* border: 5px solid ghostwhite;
+    border-radius: 80px; */
+}
+.Nav ul li {
+    list-style: none;
+}
+.Nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: 800;
+    color: ghostwhite;  
+}
+.item {
+    background-color: whitesmoke;
+    width:250px;
+    height: 350px;
+    margin-top: 230px;
+    display: flex;
+    justify-content: center;
+    margin: 230px 20px 0px 0px;
+    color: yellow;
+    position: relative;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.music {
+    display: flex;
+    /* border: 2px solid red; */
+    margin: 20px;
+    padding: 10px;
+    color: ghostwhite;
+}
+.gaming {
+    display: flex;
+    /* border: 2px solid red; */
+    margin: 20px;
+    padding: 10px;
+    color: ghostwhite;
+}
+.lifestyle {
+    display: flex;
+    /* border: 2px solid red; */
+    margin: 20px;
+    padding: 10px;
+    color: ghostwhite;
+}
+#imgTarget > img {
+    margin-top: 35px;
+}
+#imgTarget1 > img {
+    margin-top: 15px;
+}
+#watch > img {
+    border-radius: 30px;
+}
+.item:hover {
+    transform: scale(1.3);
+    transition: transform 400ms ease-in-out;
+}
+.lifestyle h1 {
+    height: fit-content;
+    position: relative;
+    top: 100px;
+    left: 720px;
+}
+.gaming h1 {
+    height: fit-content;
+    position: relative;
+    top: 100px;
+    left: 720px;
+}
+.music h1 {
+    height: fit-content;
+    position: relative;
+    top: 100px;
+    left: 720px;
+}
+.navbar {
+    width: 5300px;
+}
+.border img {
+    filter: invert(100%);
+    position: relative;
+    top: 330px;
+    width: 300px;
+    rotate: 20deg;
+    left: 80px;
+}
